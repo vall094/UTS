@@ -1,0 +1,60 @@
+:root {
+    --main-bg: #e1e1e1;
+    --border-color: #999;
+    --box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    -icon-bg: #ccc;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.accordion-container {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 8px;
+    margin-top: 150px;
+}
+
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--box-shadow);
+    background: var(--main-bg);
+    margin-bottom: 0.5em;
+}
+
+.accordion-item:nth-child(2) {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.accordion-item:nth-child(3) {
+    background-color: rgba(0, 128, 0, 0.2);
+}
+
+.accordion-item:nth-child(4) {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+.accordion-item:nth-child(5) {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0.2em;
+    font-size: 18px;
+}
+
